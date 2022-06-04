@@ -1,0 +1,11 @@
+reserved1_name                  = "gcve-managemnt-ip-alloc"
+reserved1_address               = "192.168.80.0"
+reserved1_address_prefix_length = 23
+reserved2_name                  = "gcve-workload-ip-alloc"
+reserved2_address               = "192.168.84.0"
+reserved2_address_prefix_length = 23
+address_purpose                 = "VPC_PEERING"
+address_type                    = "INTERNAL"
+service                         = "servicenetworking.googleapis.com"
+peering                         = "servicenetworking-googleapis-com"
+project                         = "fsalaman-sandbox-340019"
